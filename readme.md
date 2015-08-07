@@ -1,3 +1,5 @@
+THIS IS A TEST
+
 # WDInstagram!
 
 <img alt="A picture of nice food taken by a distant friend." src="public/images/instagramming-food.jpg" width="700px"/>
@@ -7,11 +9,11 @@
 ## Setup
 
 Provided here is a large amount of starter code. There is an Express app, a
-view template, and assets. You will have to create a Mongoose/MongoDB 
-persistence schema, write in route handlers, fill out the view templates with 
+view template, and assets. You will have to create a Mongoose/MongoDB
+persistence schema, write in route handlers, fill out the view templates with
 EJS and any other necessary HTML, and style it!
 
-You may also want to write a **seed file** to have data in the website as you 
+You may also want to write a **seed file** to have data in the website as you
 build and test it. *How would that work?*
 
 ## Completion
@@ -27,7 +29,7 @@ data.
 
 #### A user can see a list of photos from the database.
 
-Set up Mongoose, create a schema, and write the necessary code to read the 
+Set up Mongoose, create a schema, and write the necessary code to read the
 entries from the database. Display the database's contents in the entries list.
 
 #### A user can add (create) a new photo.
@@ -72,6 +74,6 @@ We structured our entries after this image, found online:
 ### Bonus
 
 1. Add the ability to like, or upvote, the entries by clicking on the heart.
-1. Add validation: `author` and `photo_url` need to be present, and the 
+1. Add validation: `author` and `photo_url` need to be present, and the
    `date_taken` should be today by default.
 1. Add a `caption` to your entries.
