@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var ejs = require('ejs');
 
 var routes = require('./routes/index');
+var newPhoto = require('./routes/new');
 
 mongoose.connect('mongodb://localhost/food_app');
 
@@ -26,6 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/', newPhoto);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
